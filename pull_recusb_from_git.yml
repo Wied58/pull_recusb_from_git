@@ -25,9 +25,9 @@
            mode: 0755
            recurse: yes
 
-      - name: Copy recusb from git_repo to sendusb
+      - name: Copy recusb from git_repo to recusb
         copy:
-          src: /home/pi/Tools/git_scratch/
+          src: /home/pi/Tools/git_scratch/*
           dest: /home/pi/recusb/
           owner: pi
           group: pi
