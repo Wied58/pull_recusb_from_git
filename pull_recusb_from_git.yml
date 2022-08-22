@@ -27,7 +27,7 @@
 
       - name: Copy recusb from git_repo to recusb
         copy:
-          src: /home/pi/git_scratch/*.py
+          src: /home/pi/git_scratch/
           dest: /home/pi/recusb/
           #remote source: yes
           owner: pi
