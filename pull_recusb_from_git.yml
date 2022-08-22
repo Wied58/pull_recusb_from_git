@@ -29,6 +29,7 @@
         copy:
           src: /home/pi/Tools/git_scratch/
           dest: /home/pi/recusb/
+          remote_src: yes
           owner: pi
           group: pi
           mode: 0775
